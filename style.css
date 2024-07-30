@@ -1,0 +1,94 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: rgb(209, 228, 245);
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(images/monumentsOnIndainCurrency.jpg);
+  backdrop-filter: blur(3px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.monuments-div {
+  border: 2px solid black;
+  background-color: rgba(33, 17, 17, 0.4);
+  margin-top: 150px;
+}
+
+h1 {
+  font-size: 60px;
+  padding-top: 50px;
+  margin-left: 180px;
+  padding-bottom: 10px;
+  color: rgb(234, 246, 65);
+}
+
+.temple-list {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.modal {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.close-modal {
+  position: absolute;
+  cursor: pointer;
+  background-color: rgb(212, 237, 233);
+  font-size: 40px;
+  margin-left: 700px;
+  border: none;
+  color: black;
+}
+
+.start-modal {
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(45, 44, 44, 0.6);
+  font-size: 20px;
+  position: center;
+  width: 800px;
+  padding: 30px;
+  background-color: rgb(212, 237, 233);
+  transform: translate(350px, -350px);
+  z-index: 1;
+  /* overflow: hidden; */
+}
+
+.start-modal h2 {
+  color: rgb(173, 176, 8);
+  margin-bottom: 7px;
+}
+.start-modal img {
+  height: 300px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+}
